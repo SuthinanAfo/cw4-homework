@@ -1,13 +1,18 @@
 .container{
     display: flex;
-    width: 400px;
-    height: 400px;
+    /* width: 400px; */
+     height: 400px; 
+    justify-content: space-between;
     border: 2px solid black;
+    /* flex-direction: column-reverse; */
+    flex-wrap: wrap;
+    align-items: center;
+
 }
 .items{
     width: 60px;
     height: 60px;
-    background-color: rgb(177, 181, 216);
+    background-color: rgb(230, 149, 206);
     border: 1px solid black;
     margin: 10px;
     font-size: 20px;
